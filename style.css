@@ -9,26 +9,26 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.6;  
 }
 
 /* Navbar */
 .navbar {
-  background-color: #222 !important;
+  background-color: #222 ;
 }
 
 .navbar-brand {
   font-weight: bold;
-  color: #ffcc00 !important;
+  color: #ffcc00 ;
 }
 
 .nav-link {
-  color: #fff !important;
+  color: #fff ;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #ffcc00 !important;
+  color: #ffcc00 ;
 }
 
 /* Hero Section */
