@@ -9,12 +9,15 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
-  line-height: 1.6;  
+  line-height: 1.6; 
+  background-image: url("C:\Users\troyi\Downloads\sports-centre jpg.jpeg"); 
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #222 ;
+  background-color: #222222 ;
 }
 
 .navbar-brand {
