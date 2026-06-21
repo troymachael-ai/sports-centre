@@ -24,7 +24,7 @@ body {
 }
 
 .nav-link {
-  color: #e6570a ;
+  color: white ;
   transition: color 0.3s ease;
 }
 
@@ -34,7 +34,7 @@ body {
 
 
 header.index {
-  background: linear-gradient(to right, #007bff, #00c6ff);
+  background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
@@ -53,7 +53,7 @@ body.index{
   line-height: 1.6; 
 }
 header.football{
-  background: linear-gradient(to right, #007bff, #00c6ff);
+  background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
@@ -73,7 +73,7 @@ body.football{
 
 }
 header.basketball{
-background: linear-gradient(to right, #007bff, #00c6ff);
+background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
@@ -93,7 +93,7 @@ body.basketball{
 
 }
 header.athletics{
-background: linear-gradient(to right, #007bff, #00c6ff);
+background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
@@ -113,7 +113,7 @@ body.athletics{
 
 }
 header.tennis{
-background: linear-gradient(to right, #007bff, #00c6ff);
+background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
@@ -132,7 +132,7 @@ background-image:
   line-height: 1.6; 
 }
 header.swimming{
-background: linear-gradient(to right, #007bff, #00c6ff);
+background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
@@ -152,7 +152,7 @@ background-image:
 
 }
 header.rugby{
-background: linear-gradient(to right, #007bff, #00c6ff);
+background: gray;
   color: white;
   text-align: center;
   padding: 0px 0px;
