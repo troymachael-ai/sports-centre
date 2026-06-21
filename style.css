@@ -37,7 +37,7 @@ header.index {
   background: linear-gradient(to right, #007bff, #00c6ff);
   color: white;
   text-align: center;
-  padding: 40px 20px;
+  padding: 0px 0px;
 }
 body.index{
   background-image:
@@ -46,8 +46,128 @@ body.index{
   url(images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: white;
   line-height: 1.6; 
+}
+header.football{
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+body.football{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+  url(images/football.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  line-height: 1.6; 
+
+}
+header.basketball{
+background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+body.basketball{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+  url(images/basketball.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  line-height: 1.6; 
+
+}
+header.athletics{
+background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+body.athletics{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+  url(images/athletics.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  line-height: 1.6; 
+
+}
+header.tennis{
+background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+body.tennis{
+background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+  url(images/tennis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  line-height: 1.6; 
+}
+header.swimming{
+background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+body.swimming{
+background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+  url(images/swimming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  line-height: 1.6; 
+
+}
+header.rugby{
+background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+body.rugby{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+  url(images/rugby.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: white;
+  line-height: 1.6; 
+
 }
