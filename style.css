@@ -52,6 +52,12 @@ body.index{
   color: white;
   line-height: 1.6; 
 }
+footer.index {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
 header.football{
   background: gray;
   color: white;
@@ -71,6 +77,12 @@ body.football{
   color: white;
   line-height: 1.6; 
 
+}
+footer.football {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
 header.basketball{
 background: gray;
@@ -92,6 +104,12 @@ body.basketball{
   line-height: 1.6; 
 
 }
+footer.basketball {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
 header.athletics{
 background: gray;
   color: white;
@@ -112,6 +130,12 @@ body.athletics{
   line-height: 1.6; 
 
 }
+footer.athletics {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
 header.tennis{
 background: gray;
   color: white;
@@ -130,6 +154,12 @@ background-image:
   background-color: #f4f4f4;
   color: white;
   line-height: 1.6; 
+}
+footer.tennis {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
 header.swimming{
 background: gray;
@@ -151,6 +181,12 @@ background-image:
   line-height: 1.6; 
 
 }
+footer.swimming {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
 header.rugby{
 background: gray;
   color: white;
@@ -170,4 +206,10 @@ body.rugby{
   color: white;
   line-height: 1.6; 
 
+}
+footer.rugby {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
