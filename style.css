@@ -46,6 +46,7 @@ body.index{
   url(images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -123,6 +124,7 @@ body.athletics{
   url(images/athletics.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
