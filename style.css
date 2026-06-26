@@ -236,6 +236,7 @@ body.rugby{
   url(images/rugby.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -243,6 +244,12 @@ body.rugby{
   line-height: 1.6; 
 
 }
+.break-rugby {
+    text-align: center;
+    margin-top: 20px;    
+    color: #ffcc00;
+}
+
 footer.rugby {
   background: black;
   color: white;
