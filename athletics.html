@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basketball - Sports Hub</title>
+  <title>Athletics - Sports Hub</title>
  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   
@@ -14,7 +14,7 @@
   
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Sports Hub</a>
+      <a class="navbar-brand" href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
               data-bs-target="#navbarNav" aria-controls="navbarNav" 
               aria-expanded="false" aria-label="Toggle navigation">
@@ -45,6 +45,8 @@
   
   <section>
     <div class="container">
+      <div class="abouthistory-container">
+        <div class="info-box">
       <h2>About athletics</h2>
       <p>Athletics is often regarded as the foundation of competitive sports because it showcases the fundamental human abilities of running, jumping, and throwing.<br>
          It consists of a wide variety of events, including sprints, middle-distance races, marathons, long jump, high jump, javelin, and shot put.</p>
@@ -55,10 +57,9 @@
        Whether competing professionally or participating recreationally, athletics promotes healthy living, determination, and self-improvement.
       </p>      
 
-     </div>
-  </section>
-  <section>
-    <div class="container">
+     </div>  
+  
+    <div class="info-box">
     <h2>History</h2>
     <p>Athletics is one of the oldest forms of sport, with its origins dating back to the ancient Olympic Games in Greece around 776 BC.<br>
        Early competitions focused on running events, which later expanded to include jumping and throwing disciplines.</p>
@@ -66,28 +67,84 @@
          Today, it is a major part of events such as the Olympic Games and World Athletics Championships.
          Athletics continues to inspire athletes worldwide by showcasing speed, strength, endurance, and determination.</p>
    </div>
-  </section>
-  <section>
-    <div class="container">
-      <h2>Events</h2>
-      <h4>Running Events</h4>
-      <p>Running events in athletics include sprints, middle-distance, long-distance, hurdles, relays, marathons, and cross-country races, each testing speed, endurance, and strategy</p>
-      <h4>Jumping Events</h4>
-      <p>Jumping events in athletics include the long jump, high jump, pole vault, and triple jump, each testing explosive power and technique.</p>
-      <h4>Throwing Events</h4>
-      <p>Throwing events in athletics include the shot put, discus throw, javelin throw, and hammer throw, each testing strength and precision.</p>
+      </div>
     </div>
   </section>
+  
+  <section class="mb-5">
+    <div class="container">
+    <h2>Events</h2>
+    <div class="events-container">
+      <div class="event-box">        
+      <h4>Running Events</h4>
+      <p>Running events in athletics include sprints, middle-distance, long-distance, hurdles, relays, marathons, and cross-country races, each testing speed, endurance, and strategy</p>
+      </div>
+      <div class="event-box">
+      <h4>Jumping Events</h4>
+      <p>Jumping events in athletics include the long jump, high jump, pole vault, and triple jump, each testing explosive power and technique.</p>
+      </div>
+      <div class="event-box">
+      <h4>Throwing Events</h4>
+      <p>Throwing events in athletics include the shot put, discus throw, javelin throw, and hammer throw, each testing strength and precision.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <h3 class="break-athletics">KNOW MORE</h3>
   <section>
     <div class="container">
       <h2>Records</h2>
       <p>Athletics has seen numerous world records set by exceptional athletes over the years.<br>
         These records represent the pinnacle of human performance:<br>
+        <p>Who holds the world record for the 100m and 200m sprints for men?</p>
         <ul>
-          <li>Usain Bolt holds the world record for the 100m and 200m sprints.</li>
-          <li>Florence Griffith-Joyner holds the world record for the 100m and 200m sprints for women </li>
-          <li>Javier Sotomayor holds the world record for the high jump.</li>
-          <li>Mike Powell holds the world record for the long jump.</li>  
+          <li><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts" aria-expanded="false" aria-controls="collapseFacts">Reveal answer</button>
+          <div class="collapse mt-2" id="collapseFacts">
+            <div class="card bg-dark">
+            <div class="card card-body">
+            Usain Bolt</div>
+            </div>
+        </div>
+          </li>
+          </ul>
+          <p>Who holds the world record for the 100m and 200m sprints for women?</p>
+          <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts2" aria-expanded="false" aria-controls="collapseFacts2">Reveal answer</button>
+            <div class="collapse mt-2" id="collapseFacts2">
+              <div class="card bg-dark">
+                <div class="card card-body">
+                  Florence Griffith-Joyner
+                </div>
+              </div>
+            </div>
+          </li>
+          </ul>
+          <p>Who holds the world record for the high jump?</p>  
+          <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts3" aria-expanded="false" aria-controls="collapseFacts3">Reveal answer</button>
+            <div class="collapse mt-2" id="collapseFacts3">
+              <div class="card bg-dark">
+                <div class="card card-body">
+                  Javier Sotomayor
+                </div>
+              </div>
+            </div>
+          </li>
+          </ul>
+          <p>Who holds the world record for the long jump?</p>
+          <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts4" aria-expanded="false" aria-controls="collapseFacts4">Reveal answer</button>
+            <div class="collapse mt-2" id="collapseFacts4">
+              <div class="card bg-dark">
+                <div class="card card-body">
+                  Mike Powell
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </p>
     </div>
@@ -104,22 +161,55 @@
         </ul>
 
     </p>
+    <form>
+        <div class="mb-3">
+          <label for="favoritePlayers" class="form-label">Enter your favorite athletes (comma-separated):</label>
+          <input type="text" class="form-control" id="favoritePlayers" placeholder="Let us know!" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </section>
   <section>
     <div class="container">
       <h2>Fun facts</h2>
       <p>Here are some interesting facts about athletics:</p>
-      <ul>
-        <li>The first modern Olympic Games were held in Athens, Greece in 1896.</li>
-        <li>Athletics is the only sport that has been part of every modern Olympic Games since 1896.</li>
-        <li>The 100-meter dash is often called the "most prestigious race in the world."</li>
-        <li>The shot put is the only event in athletics where men and women compete against each other.</li>
+      <ul class="reveallist">
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts" aria-expanded="false" aria-controls="collapseFacts">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts">
+            <div class="card bg-dark">
+            <div class="card card-body">
+            The first modern Olympic Games were held in Athens, Greece in 1896</div>
+            </div>
+        </div>
+        </li>
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts2" aria-expanded="false" aria-controls="collapseFacts2">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts2">
+            <div class="card bg-dark">
+            <div class="card card-body">
+           Athletics is the only sport that has been part of every modern Olympic Games since 1896.</div>
+            </div>
+        </div>
+        </li>
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts3" aria-expanded="false" aria-controls="collapseFacts3">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts3">
+            <div class="card bg-dark">
+            <div class="card card-body">
+          The 100-meter dash is often called the "most prestigious race in the world."</div>
+            </div>
+        </div></li>
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts4" aria-expanded="false" aria-controls="collapseFacts4">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts4">
+            <div class="card bg-dark">
+            <div class="card card-body">
+          The shot put is the only event in athletics where men and women compete against each other.</div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </section>
-
-  <!-- Footer -->
+  
   <footer class="athletics">
     <p>&copy; 2026 Sports Hub | All Rights Reserved</p>
   </footer>
