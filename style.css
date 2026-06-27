@@ -101,15 +101,21 @@ body.basketball{
   background-image:
   linear-gradient(rgba(0,0,0,0.5),
                         rgba(0,0,0,0.5)),
-  url(images/basketball.jpg);
+  url(images/basket.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: white;
   line-height: 1.6; 
 
+}
+h3.break-basketball {
+    text-align: center;
+    margin-top: 20px;    
+    color: #ffcc00;
 }
 footer.basketball {
   background: black;
