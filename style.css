@@ -69,15 +69,21 @@ body.football{
   background-image:
   linear-gradient(rgba(0,0,0,0.5),
                         rgba(0,0,0,0.5)),
-  url(images/football.jpg);
+  url(images/footballstars.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: white;
   line-height: 1.6; 
 
+}
+h3.break-football {
+    text-align: center;
+    margin-top: 20px;    
+    color: #ffcc00;
 }
 footer.football {
   background: black;
