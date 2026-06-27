@@ -14,7 +14,7 @@
   
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Sports Hub</a>
+      <a class="navbar-brand" href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
               data-bs-target="#navbarNav" aria-controls="navbarNav" 
               aria-expanded="false" aria-label="Toggle navigation">
@@ -45,6 +45,8 @@
   
   <section>
     <div class="container">
+      <div class="abouthistory-container">
+        <div class="info-box">
       <h2>About Basketball</h2>
       <p>
         Basketball is one of the fastest-growing sports in the world and is known for its speed, skill, and excitement.<br>
@@ -56,10 +58,9 @@
 
       </p>
 
-     </div>
-  </section>
-  <section>
-    <div class="container">
+     </div> 
+  
+    <div class="info-box">
     <h2>History</h2>
     <p>Basketball was formed in 1891 by  by James Naismith at the International YMCA Training School in Springfield, Massachusetts, using peach baskets as goals.<br>
     Naismith published 13 original rules, emphasizing passing, non-contact play, and stationary ball handling. <br>The first public game occurred on March 11, 1892, in Springfield, Massachusetts.
@@ -70,13 +71,97 @@
       Today Basketball is one of the world's most popular sports, played globally and governed internationally by <a href="https://www.fiba.basketball/en">FIBA</a>
     </p>
     </div>
+    </div>
+    </div>
 
   </section>
+  <section>
+    <div class="container">      
+      <h2>Basketball Techniques</h2>
+      <div class="events-container">
+        <div class="event-box">
+          <h1>Dribbling</h1>
+          <p>Dribbling is the act of bouncing the ball continuously with one hand while moving around the court. It allows players to advance the ball, evade defenders, and create scoring opportunities.</p>
+        </div>
+        <div class="event-box">
+          <h1>Shooting</h1>
+          <p>Shooting is the act of attempting to score points by throwing the ball into the basket.</p>
+        </div>
+        <div class="event-box">
+          <h1>Passing</h1>
+          <p>Passing is the skill of transferring the ball to a teammate effectively.</p>
+        </div>        
+        <div class="event-box">
+          <h1>Defense</h1>
+          <p>Defense is the set of techniques used to prevent the opposing team from scoring, including blocking and stealing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h3 class="break-basketball">KNOW MORE</h3>
+  <section>
+    <div class="container">
+      <h2>Records</h2>
+      <p>These records represent the pinnacle of human performance in the sport:<br>
+        <p>Who has the most NBA championships?</p>
+        <ul>
+          <li><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts" aria-expanded="false" aria-controls="collapseFacts">Reveal answer</button>
+          <div class="collapse mt-2" id="collapseFacts">
+            <div class="card bg-dark">
+            <div class="card card-body">
+            Bill Russell</div>
+            </div>
+        </div>
+          </li>
+          </ul>
+          <p>Who has scored the most points in a single NBA game (100 points)?</p>
+          <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts2" aria-expanded="false" aria-controls="collapseFacts2">Reveal answer</button>
+            <div class="collapse mt-2" id="collapseFacts2">
+              <div class="card bg-dark">
+                <div class="card card-body">
+                  Wilt Chamberlain
+                </div>
+              </div>
+            </div>
+          </li>
+          </ul>
+          <p>Who has the highest career scoring average in NBA history?</p>
+          <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts3" aria-expanded="false" aria-controls="collapseFacts3">Reveal answer</button>
+            <div class="collapse mt-2" id="collapseFacts3">
+              <div class="card bg-dark">
+                <div class="card card-body">
+                  Kareem Abdul-Jabbar
+                </div>
+              </div>
+            </div>
+          </li>
+          </ul>
+          <p>Who has won the most Olympic gold medals in basketball?</p>
+          <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts4" aria-expanded="false" aria-controls="collapseFacts4">Reveal answer</button>
+            <div class="collapse mt-2" id="collapseFacts4">
+              <div class="card bg-dark">
+                <div class="card card-body">
+                  Michael Jordan
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </p>
+    </div>
+  </section>
+  <section>
   <section>
     <div class="container">
       <h2>Basketball Stars</h2>
       <p>Basketball has produced many legendary players who have left a lasting impact on the sport.<br>
-        The list of stars is long but our team has formulated the top 10:<br>        
+        The list of stars is long, here are some:<br>        
         <ul>
           <li>Michael Jordan</li>
           <li>LeBron James</li>
@@ -84,32 +169,62 @@
           <li>Larry Bird</li>
           <li>Kobe Bryant</li>
           <li>Stephen Curry</li>
-          <li>Shaquille O'Neal</li>
-          <li>Tim Duncan</li>
-          <li>Wilt Chamberlain</li>
-          <li>James Harden</li>
+          <li>Shaquille O'Neal</li>         
     </ul>
     <p>
+      <form>
+        <div class="mb-3">
+          <label for="favoritePlayers" class="form-label">Enter your favorite athletes (comma-separated):</label>
+          <input type="text" class="form-control" id="favoritePlayers" placeholder="Let us know!" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </section>
-  <section>
+   <section>
     <div class="container">
-      <h4>Fun facts</h4>
+      <h2>Fun facts</h2>
       <p>Here are some interesting facts about basketball:</p>
-      <ul>
-        <li>The first basketball game was played with a soccer ball.</li>
-        <li>Basketball was originally called "jaegers" and later "hoop."</li>
-        <li>The Harlem Globetrotters were formed in 1920.</li>
+      <ul class="reveallist">
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts" aria-expanded="false" aria-controls="collapseFacts">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts">
+            <div class="card bg-dark">
+            <div class="card card-body">
+            The first basketball game was played with a soccer ball.</div>
+            </div>
+        </div>
+        </li>
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts2" aria-expanded="false" aria-controls="collapseFacts2">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts2">
+            <div class="card bg-dark">
+            <div class="card card-body">
+           Basketball was originally called "jaegers" and later "hoop."</div>
+            </div>
+        </div>
+        </li>
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts3" aria-expanded="false" aria-controls="collapseFacts3">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts3">
+            <div class="card bg-dark">
+            <div class="card card-body">
+          The Harlem Globetrotters were formed in 1920.</div>
+            </div>
+        </div></li>
+        <li class="mb-3"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacts4" aria-expanded="false" aria-controls="collapseFacts4">Tap to reveal</button>
+          <div class="collapse mt-2" id="collapseFacts4">
+            <div class="card bg-dark">
+            <div class="card card-body">
+          Basketball is played on all continents except Antarctica.</div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </section>
-
-  <!-- Footer -->
   <footer class="basketball">
     <p>&copy; 2026 Sports Hub | All Rights Reserved</p>
   </footer>
 
-  <!-- Bootstrap JS -->
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
