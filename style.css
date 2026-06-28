@@ -197,11 +197,17 @@ background-image:
   url(images/tennis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: white;
   line-height: 1.6; 
+}
+h3.break-tennis {
+    text-align: center;
+    margin-top: 20px;    
+    color: #ffcc00;
 }
 footer.tennis {
   background: black;
@@ -222,12 +228,18 @@ background-image:
   url(images/swimming.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: white;
   line-height: 1.6; 
 
+}
+h3.break-swimming {
+    text-align: center;
+    margin-top: 20px;    
+    color: #ffcc00;
 }
 footer.swimming {
   background: black;
